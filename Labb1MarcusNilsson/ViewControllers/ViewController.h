@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UISwitch *DarkMode;
+
+
+- (IBAction)darkmodeOn:(id)sender;
+
 
 
 @end
